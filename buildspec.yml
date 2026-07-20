@@ -8,7 +8,7 @@ phases:
       - pip install -r requirements.txt
   build:
     commands:
-      - python A014.py
+      - python a001.py
 
 artifacts:
   files:
