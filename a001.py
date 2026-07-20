@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 import joblib
 import json
 
-df=pd.read_csv("Telecom_Tower_Failure_Dataset_10000-1.csv")
+df=pd.read_csv("Telecom_Tower_Failure_Dataset_10000-1 (1).csv")
 df.head()
 
 X=df[['Tower_ID','Temperature_C','Battery_Voltage','Power_Consumption_W','Signal_Strength_Percent','Fan_Speed_RPM','Humidity_Percent','Traffic_Load','Tower_Age_Years']]
